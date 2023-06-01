@@ -1,0 +1,37 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    /* Projects */
+    /* Language and Environment */
+    "target": "es6",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "./src",
+    "rootDirs": [
+      "src"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictBindCallApply": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "allowUnusedLabels": true,
+    "allowUnreachableCode": true,
+    "skipLibCheck": true
+  }
+}
