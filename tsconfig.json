@@ -1,18 +1,16 @@
 {
   "include": [
-    "src"
+    "src",
+    "tests"
   ],
   "compilerOptions": {
     /* Projects */
     /* Language and Environment */
     "target": "es6",
     "module": "CommonJS",
-    "rootDir": "./src",
-    "moduleResolution": "NodeNext",
-    "baseUrl": "./src",
-    "rootDirs": [
-      "src"
-    ],
+    "rootDir": "./",
+    "moduleResolution": "nodenext",
+    "rootDirs": [],
     "typeRoots": [
       "node_modules/@types"
     ],

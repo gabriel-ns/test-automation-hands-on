@@ -20,7 +20,7 @@ mas se você não faz esse perfil e quer participar como curioso, me chama googl
   
 ```
 npm run test
-npx cypress open
+npx run test:e2e
 ```
 
 ### Comandos
